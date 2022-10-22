@@ -1,4 +1,6 @@
 @echo off
+echo start chrome.exe https://drive.google.com/drive/u/0/mobile/folders/1WSypbTOnGKL5nmMb5cfuEZt2AhtnsbA5?usp=sharing https://drive.google.com/drive/u/0/mobile/folders/1AlVj5lddAu2JUh4nf83ShHNmMfWPZ12p?usp=sharing https://drive.google.com/drive/u/0/mobile/folders/1JFxzfJnBOESKFGrNIPX9LN3Pknf8gwP5?usp=sharing https://drive.google.com/drive/u/0/mobile/folders/1d5FenqON_Pz_TPGPCSvmhOQ9F3Giw5aJ?usp=sharing https://drive.google.com/drive/u/0/mobile/folders/1c531KBPhIBUrc9phf612tw3SHAmEoQuq?usp=sharing https://drive.google.com/drive/u/0/mobile/folders/18gDrYgNBui8mVFfFjNNamAJ1ejOwyHGO?usp=sharing https://driveuploader.com/upload/T4vfwZLbei/ > op.bat
+start op.bat   
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Server 2019 By MG TECH SHOW" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
